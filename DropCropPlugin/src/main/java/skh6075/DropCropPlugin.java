@@ -7,8 +7,6 @@ public class DropCropPlugin extends PluginBase {
 
     @Override
     public void onEnable() {
-        getServer()
-                .getPluginManager()
-                .registerEvents(new EventListener(), this);
+        getServer().getPluginManager().registerEvents(new EventListener(), this);
     }
 }
